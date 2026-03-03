@@ -8,7 +8,7 @@ class Solution {
                     arr[0]=i;
                 }
                 arr[1]=i;
-                while(i<nums.length && nums[i+1]==target){
+                while(i+1<nums.length && nums[i+1]==target){
                     i++;
                     arr[1]=i;
                     break;
