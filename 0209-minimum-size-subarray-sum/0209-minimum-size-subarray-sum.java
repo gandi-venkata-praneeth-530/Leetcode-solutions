@@ -5,7 +5,7 @@ class Solution {
         int minLength = Integer.MAX_VALUE;
         for(int right =0; right< nums.length; right++)
         {
-            sum+=nums[right];// 3 1 2 4 = 8
+            sum+=nums[right];
             
 
             while(sum>=target){
